@@ -23,7 +23,7 @@ from colorama import init, Fore
 init(autoreset=True)
 
 __TITLE__ = "Nulled"
-__VERSION__ = "69.0"
+__VERSION__ = "69.420"
 __AUTHOR__ = "Eren Jaeger"
 __LICENSE__ = "None"
 
