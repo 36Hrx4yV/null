@@ -6,6 +6,9 @@ You can do anything with raid bot. Raid servers, Test anti-raid bots. All of thi
 Installation:
 
 git clone https://github.com/36Hrx4yV/null
+
 cd null
+
 pip install -r requirements.txt
+
 python null
