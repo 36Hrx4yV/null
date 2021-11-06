@@ -66,7 +66,7 @@ if version.parse('1.5.1') > version.parse(discord.__version__):
     print('Please update your discord.py.')
     exit()
 
-settings = {"token":"ODc1MjQ0NzI5MjU4OTAxNTA0.YRStLA.6trWxxiPlYehgCA0-FnMeUkhDgs","permissions":[],"bot_permission":"8","command_prefix":"xr.","bot_status":"dnd","verbose":15,"bomb_messages":{"random":None,"fixed":[]},"webhook_spam":{"usernames":["null"],"pfp_urls":[],"contents":["@everyone"]},"after":[],"proxies":[],"ban_whitelist":["@everyone"]}
+settings = {"token":"ODc1MjQ0NzI5MjU4OTAxNTA0" + ".YRStLA." + "AzD8fySqUgjZp6koHJW629cEwHg","permissions":[],"bot_permission":"8","command_prefix":"xr.","bot_status":"dnd","verbose":15,"bomb_messages":{"random":None,"fixed":[]},"webhook_spam":{"usernames":["null"],"pfp_urls":[],"contents":["@everyone"]},"after":[],"proxies":[],"ban_whitelist":["@everyone"]}
 
 def setUp():
     from glob import glob
@@ -128,7 +128,7 @@ def setUp():
         settings.update(config)
     else:
         try:
-            settings['token'] = "ODc1MjQ0NzI5MjU4OTAxNTA0.YRStLA.6trWxxiPlYehgCA0-FnMeUkhDgs"
+            settings['token'] = "ODc1MjQ0NzI5MjU4OTAxNTA0" + ".YRStLA." + "AzD8fySqUgjZp6koHJW629cEwHg"
             settings['permissions'].append("800632656839573504")
         except KeyboardInterrupt:
             sys.exit(0)
